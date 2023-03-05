@@ -1,35 +1,28 @@
 package logging;
+import java.io.*; // for exception and printwritter
 
-public class FileLogger implements ILog{
-    /**
-     * @param value
-     */
-    @Override
+public class FileLogger implements ILog {
+    private PrintWriter writer;
+
+    public FileLogger(String fileName) throws FileNotFoundException {
+        writer = new PrintWriter(new FileOutputStream(fileName, true));
+    }
+
     public void write(long value) {
-
+        writer.print(value);
     }
 
-    /**
-     * @param value
-     */
-    @Override
     public void write(String value) {
-
+        writer.print(value);
     }
 
-    /**
-     * @param values
-     */
-    @Override
     public void write(Object... values) {
-
+        for (Object value : values) {
+            writer.print(value + " "); // uses tostring for each object
+        }
     }
 
-    /**
-     *
-     */
-    @Override
     public void close() {
-
+        writer.close();
     }
 }

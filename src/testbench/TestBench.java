@@ -9,10 +9,10 @@ public class TestBench {
     ITimer timer = new Timer();
     ILog log = new ConsoleLogger();
 
-    IBenchmark benchh = new DummyBenchmark();
+    IBenchmark benchh = new DummyBenchmark(); // for testing purposes;
 
 
-         benchh.initialize(2387482374);
+
 
 
     //Homework implementation Timer, ConsoleLogger, FileLogger
