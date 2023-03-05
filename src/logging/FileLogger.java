@@ -26,3 +26,13 @@ public class FileLogger implements ILog {
         writer.close();
     }
 }
+
+class Testing{
+    public static void main(String[] args) throws FileNotFoundException {
+        FileLogger fileLogger = new FileLogger("log.txt");
+        fileLogger.write(1);
+        fileLogger.write(2);
+        fileLogger.write(3);
+        fileLogger.close();
+    }
+}

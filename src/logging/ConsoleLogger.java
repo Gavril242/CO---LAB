@@ -19,3 +19,12 @@ public class ConsoleLogger implements ILog {
         System.out.println("The Console is now closed;");
     }
 }
+
+class ConsoleTesting{
+    public static void main(String[] args) {
+        ConsoleLogger logger = new ConsoleLogger();
+        logger.write("Hello ");
+        logger.write("World; ");
+        logger.close();
+    }
+}
