@@ -15,7 +15,19 @@ public class TestBench {
         System.out.println("\nTime has elapsed: ");
         log.write(timer.stop());
         System.out.print("ns");
+        benchmark.clean();
 
+
+        benchmark.initialize();
+        long totaltime = 0;
+        for (int i = 0; i < 100; i++) {
+            timer.resume();
+            benchmark.run();
+            if(i==99){totaltime = timer.stop(); break;}
+            long time = timer.pause();
+            log.write("Run "+i+": "+time);
+        }
+        log.write("Total time passed: "+totaltime);
 
 
 

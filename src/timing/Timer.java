@@ -21,7 +21,6 @@ public class Timer implements ITimer{
     @Override
     public long stop() {
 
-
         end = System.nanoTime();
         totalTime += end - start;
         return totalTime;

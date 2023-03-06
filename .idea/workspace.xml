@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbad276a-e03d-4311-86b3-b25fff2a2d30" name="Changes" comment="CO v1.1">
+    <list default="true" id="cbad276a-e03d-4311-86b3-b25fff2a2d30" name="Changes" comment="CO v1.4 - fully working demobenckmark week 3 lab">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bench/DemoBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/DemoBenchmark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testbench/TestBench.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestBench.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timing/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timing/Timer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timing/TimerState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timing/TimerState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,9 +128,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestBench" />
+        <item itemvalue="Application.Testing" />
         <item itemvalue="Application.bench.Testing" />
         <item itemvalue="Application.ConsoleTesting" />
-        <item itemvalue="Application.Testing" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678017015179</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CO v1.4 - fully working demobenckmark week 3 lab">
+      <created>1678108520945</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678108520945</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +187,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CO v1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="CO v1.1" />
+    <MESSAGE value="CO v1.4 - fully working demobenckmark week 3 lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="CO v1.4 - fully working demobenckmark week 3 lab" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

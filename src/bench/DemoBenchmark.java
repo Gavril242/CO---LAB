@@ -58,6 +58,7 @@ public class DemoBenchmark implements IBenchmark{
 
     @Override
     public void cancel() {
+        arr.clear();
 
     }
 
