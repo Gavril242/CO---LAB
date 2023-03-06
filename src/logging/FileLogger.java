@@ -29,7 +29,7 @@ public class FileLogger implements ILog {
 
 class Testing{
     public static void main(String[] args) throws FileNotFoundException {
-        FileLogger fileLogger = new FileLogger("log.txt");
+        FileLogger fileLogger = new FileLogger("logk.txt");
         fileLogger.write(1);
         fileLogger.write(2);
         fileLogger.write(3);
