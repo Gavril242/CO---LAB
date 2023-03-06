@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbad276a-e03d-4311-86b3-b25fff2a2d30" name="Changes" comment="CO v1.2.0 - homework for week 3 &#10;&#10;Log:&#10;&#10;-added testing classes for ConsoleLogger and FileLogger for demosntrating pourposes.">
-      <change afterPath="$PROJECT_DIR$/src/bench/DemoBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cbad276a-e03d-4311-86b3-b25fff2a2d30" name="Changes" comment="CO v1.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logging/FileLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/FileLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/IBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/IBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logging/ILog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/ILog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timing/ITimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timing/ITimer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,20 +57,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.scopes",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.ConsoleTesting">
     <configuration name="ConsoleTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="logging.ConsoleTesting" />
@@ -116,9 +116,8 @@
       <updated>1677499766367</updated>
       <workItem from="1677499767684" duration="4584000" />
       <workItem from="1677657402234" duration="32000" />
-      <workItem from="1678015540396" duration="1990000" />
-      <workItem from="1678094831489" duration="949000" />
-      <workItem from="1678104204504" duration="2476000" />
+      <workItem from="1678015540396" duration="1841000" />
+      <workItem from="1678044200427" duration="746000" />
     </task>
     <task id="LOCAL-00001" summary="CO v1.1">
       <created>1678015664742</created>
@@ -134,14 +133,7 @@
       <option name="project" value="LOCAL" />
       <updated>1678017015179</updated>
     </task>
-    <task id="LOCAL-00003" summary="CO v1.2.0 - homework for week 3 &#10;&#10;Log:&#10;&#10;-added testing classes for ConsoleLogger and FileLogger for demosntrating pourposes.">
-      <created>1678017472919</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1678017472919</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,8 +152,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CO v1.1" />
-    <MESSAGE value="CO v1.2.0 - homework for week 3 &#10;&#10;Log:&#10;&#10;-added testing classes for ConsoleLogger and FileLogger for demosntrating pourposes." />
-    <option name="LAST_COMMIT_MESSAGE" value="CO v1.2.0 - homework for week 3 &#10;&#10;Log:&#10;&#10;-added testing classes for ConsoleLogger and FileLogger for demosntrating pourposes." />
+    <option name="LAST_COMMIT_MESSAGE" value="CO v1.1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
