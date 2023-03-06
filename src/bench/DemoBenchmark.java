@@ -42,12 +42,6 @@ public class DemoBenchmark implements IBenchmark{
         }
     }
 
-
-
-
-
-
-
     @Override
     public void initialize(Object... params) {
 
@@ -66,4 +60,15 @@ public class DemoBenchmark implements IBenchmark{
     public void cancel() {
 
     }
+
+}
+
+ class Testing{
+     public static void main(String[] args) {
+
+         DemoBenchmark demo=new  DemoBenchmark();
+         demo.initialize();
+         demo.run();
+
+     }
 }

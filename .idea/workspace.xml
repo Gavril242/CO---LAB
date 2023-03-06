@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cbad276a-e03d-4311-86b3-b25fff2a2d30" name="Changes" comment="CO v1.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/IBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/IBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logging/ILog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/ILog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timing/ITimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timing/ITimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/DemoBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/DemoBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testbench/TestBench.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestBench.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,6 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -72,13 +70,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ConsoleTesting">
+  <component name="RunManager" selected="Application.TestBench">
     <configuration name="ConsoleTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="logging.ConsoleTesting" />
       <module name="CO" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="logging.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBench" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testbench.TestBench" />
+      <module name="CO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testbench.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,8 +110,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bench.Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bench.Testing" />
+      <module name="CO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bench.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBench" />
+        <item itemvalue="Application.bench.Testing" />
         <item itemvalue="Application.ConsoleTesting" />
         <item itemvalue="Application.Testing" />
       </list>
