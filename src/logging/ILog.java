@@ -30,4 +30,8 @@ public interface ILog {
      * Closes any open stream used for writing to the logging output.
      */
     void close();
+
+    void writeTime(long value, TimeUnit.timeUnit unit);
+
+    void writeTime(String string, long value, TimeUnit.timeUnit unit);
 }

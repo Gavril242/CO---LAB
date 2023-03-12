@@ -25,6 +25,25 @@ public class FileLogger implements ILog {
     public void close() {
         writer.close();
     }
+
+    /**
+     * @param value
+     * @param unit
+     */
+    @Override
+    public void writeTime(long value, TimeUnit.timeUnit unit) {
+
+    }
+
+    /**
+     * @param string
+     * @param value
+     * @param unit
+     */
+    @Override
+    public void writeTime(String string, long value, TimeUnit.timeUnit unit) {
+
+    }
 }
 
 class Testing{

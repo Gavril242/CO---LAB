@@ -1,49 +1,30 @@
 package testbench;
 
-import bench.*;
-import timing.*;
-import logging.*;
+import bench.DemoBenchmark;
+import bench.IBenchmark;
+import logging.ILog;
+import timing.Timer;
+import logging.ConsoleLogger;
+import timing.ITimer;
+import logging.TimeUnit;
 
-public class TestBench {
+public class Testbench {
     public static void main(String[] args) {
         ITimer timer = new Timer();
         ILog log = new ConsoleLogger();
-        IBenchmark benchmark = new DemoBenchmark();
-        benchmark.initialize();
-        timer.start();
-        benchmark.run();
-        System.out.println("\nTime has elapsed: ");
-        log.write(timer.stop());
-        System.out.print("ns");
-        benchmark.clean();
+        IBenchmark bench = new DemoBenchmark();
 
-
-        benchmark.initialize();
-        long totaltime = 0;
-        for (int i = 0; i < 100; i++) {
+        final int workload = 10000;
+        TimeUnit.timeUnit timeUnit = TimeUnit.timeUnit.Milli;
+        bench.initialize(workload);
+        for (int i = 0; i < 12; i++){
             timer.resume();
-            benchmark.run();
-            if(i==99){totaltime = timer.stop(); break;}
+            bench.run();
             long time = timer.pause();
-            log.write("Run "+i+": "+time);
+            log.writeTime("Run " + i + ": ", time, timeUnit);
+            //log.write("Run " + i + ": ", time);
         }
-        log.write("Total time passed: "+totaltime);
-
-
-
-
+        log.writeTime(timer.stop(), timeUnit);
     }
-
-
-
-
-
-
-
-    //Homework implementation Timer, ConsoleLogger, FileLogger
-
-
-
-
 
 }
