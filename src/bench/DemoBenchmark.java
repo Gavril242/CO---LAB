@@ -62,6 +62,11 @@ public class DemoBenchmark implements IBenchmark{
 
     }
 
+    @Override
+    public void warmup() {
+
+    }
+
 }
 
  class Testing{

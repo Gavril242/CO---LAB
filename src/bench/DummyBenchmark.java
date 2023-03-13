@@ -27,4 +27,12 @@ public class DummyBenchmark implements IBenchmark {
     public void cancel() {
 
     }
+
+    /**
+     *
+     */
+    @Override
+    public void warmup() {
+
+    }
 }

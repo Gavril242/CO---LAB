@@ -34,6 +34,14 @@ public class SleepBenchmark implements IBenchmark{
         System.out.println("cancelling");
     }
 
+    /**
+     *
+     */
+    @Override
+    public void warmup() {
+
+    }
+
 
 }
 

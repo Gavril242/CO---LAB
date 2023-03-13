@@ -2,30 +2,37 @@ package testbench;
 
 import bench.DemoBenchmark;
 import bench.IBenchmark;
-import logging.ILog;
-import timing.Timer;
+import bench.cpu.DigitsOfPi;
 import logging.ConsoleLogger;
-import timing.ITimer;
+import logging.ILog;
 import logging.TimeUnit;
+import timing.ITimer;
+import timing.Timer;
 
-public class Testbench {
+public class TestbenchPi {
     public static void main(String[] args) {
+
         ITimer timer = new Timer();
         ILog log = new ConsoleLogger();
-        IBenchmark bench = new DemoBenchmark();
+        IBenchmark bench = new DigitsOfPi();
 
-        final int workload = 10000;
+        final int workload = 50000;
         TimeUnit.timeUnit timeUnit = TimeUnit.timeUnit.Milli;
-        bench.initialize(workload);
-        for (int i = 0; i < 12; i++){
+
+        //bench.warmup();
+        for (int i = 0; i < 20; i++){
+            bench.initialize(workload);
             timer.resume();
             bench.run();
             long time = timer.pause();
-            log.writeTime("\nRun " + i + ": ", time, timeUnit);
-            log.write("\n");
+            log.writeTime("Run " + i + ": ", time, timeUnit);
+            //log.write("\n");
             //log.write("\nRun " + i + ": ", time);
         }
+
         log.writeTime(timer.stop(), timeUnit);
+        //
+        // ((DigitsOfPi) bench).printPi();
     }
 
 }

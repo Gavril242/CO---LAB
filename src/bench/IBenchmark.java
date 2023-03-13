@@ -13,6 +13,7 @@ public interface IBenchmark {
      */
     void initialize(Object... params);
 
+
     /**
      * Runs the benchmark task.
      */
@@ -27,4 +28,6 @@ public interface IBenchmark {
      * Cancels the benchmark task if necessary.
      */
     void cancel();
+
+    void warmup();
 }
