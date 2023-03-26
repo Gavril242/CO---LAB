@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbad276a-e03d-4311-86b3-b25fff2a2d30" name="Changes" comment="CO v1.4 - fully working demobenckmark added also loop needs work week 3 lab&#10;it needs to remove the print array on console its anoying.">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bench/cpu/DigitsOfPi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testbench/TestbenchPi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bench/cpu/CPUFixedPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/DemoBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/DemoBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/DummyBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/DummyBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/IBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/IBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/SleepBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/SleepBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/cpu/CPU.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/TestBench.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestBench.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testbench/TestBench.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestBench" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +63,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/donet/Desktop/CO--LAB/src/bench/cpu",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,11 +77,27 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\donet\Desktop\CO--LAB\src\bench\cpu" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="testbench" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestbenchPi">
+  <component name="RunManager" selected="Application.TestCPUFixedPoint">
+    <configuration name="TestCPUFixedPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testbench.TestCPUFixedPoint" />
+      <module name="CO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testbench.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Testbench" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testbench.Testbench" />
       <module name="CO" />
@@ -113,25 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingPIMagically" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bench.cpu.TestingPIMagically" />
-      <module name="CO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bench.cpu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestingPIMathematically" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bench.cpu.TestingPIMathematically" />
       <module name="CO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bench.cpu.*" />
+          <option name="PATTERN" value="testbench.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,7 +142,7 @@
       <module name="CO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bench.cpu.*" />
+          <option name="PATTERN" value="testbench.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCPUFixedPoint" />
         <item itemvalue="Application.TestbenchPi" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Testbench" />
         <item itemvalue="Application.TestingPIMathematically" />
-        <item itemvalue="Application.TestingPIMagically" />
       </list>
     </recent_temporary>
   </component>
