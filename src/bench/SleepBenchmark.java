@@ -18,6 +18,14 @@ public class SleepBenchmark implements IBenchmark{
         }
     }
 
+    /**
+     * @param params
+     */
+    @Override
+    public void run(Object... params) {
+
+    }
+
     @Override
     public void initialize(Object... params) {
         n = (int) params[0];

@@ -17,6 +17,14 @@ public class CPUFixedPoint implements IBenchmark {
 
     }
 
+    /**
+     * @param params
+     */
+    @Override
+    public void run(Object... params) {
+
+    }
+
 
     /**
      * @param params

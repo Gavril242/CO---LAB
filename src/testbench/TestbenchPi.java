@@ -1,6 +1,6 @@
 package testbench;
 
-import bench.DemoBenchmark;
+
 import bench.IBenchmark;
 import bench.cpu.DigitsOfPi;
 import logging.ConsoleLogger;

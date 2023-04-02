@@ -1,7 +1,7 @@
 package testbench;
 
 import bench.IBenchmark;
-import bench.SleepBenchmark;
+
 import bench.cpu.CPUFixedPoint;
 import logging.ConsoleLogger;
 import logging.ILog;
@@ -18,8 +18,6 @@ public class TestCPUFixedPoint {
         IBenchmark bench = new CPUFixedPoint();
 
         final long workload = 1000567600;
-        TimeUnit timeUnit;
-        timeUnit = new TimeUnit();
         bench.initialize(workload);
         timer.resume();
         try{

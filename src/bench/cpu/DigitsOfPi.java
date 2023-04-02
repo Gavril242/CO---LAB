@@ -69,6 +69,14 @@ public class DigitsOfPi implements IBenchmark {
 
     }
 
+    /**
+     * @param params
+     */
+    @Override
+    public void run(Object... params) {
+
+    }
+
     public void printPi(){
         System.out.println(wholenumber.setScale(digits,BigDecimal.ROUND_HALF_UP));
     }

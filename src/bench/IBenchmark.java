@@ -20,6 +20,11 @@ public interface IBenchmark {
     void run();
 
     /**
+     * Runs the benchmark task.
+     */
+    void run(Object... params);
+
+    /**
      * Cleans up after the benchmark task.
      */
     void clean();
