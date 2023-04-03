@@ -81,7 +81,7 @@ private long recursive(long start, long size, int counter) {
         //System.out.println("Reached nr " + start + "/" + size + " after " + counter + " calls.");
         return 0;
         } catch (NoClassDefFoundError e) {
-        //System.out.println("Reached nr " + start + "/" + size + " after " + counter + " calls.");
+        System.out.println("Reached nr " + start + "/" + size + " after " + counter + " calls.");
         return 0;
         }
         }

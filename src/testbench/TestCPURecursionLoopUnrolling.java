@@ -18,11 +18,7 @@ public class TestCPURecursionLoopUnrolling {
     public static void main(String[] args) {
 
 
-
-
-
-
-        double MOPS, score;
+        double score;
         long prime;
         int count;
         double Score;
@@ -34,13 +30,13 @@ public class TestCPURecursionLoopUnrolling {
         long workload =0;
 
 
-         if (workload==0) workload =100;
+         if (workload==0) workload =1000;
 
 
         try {
 
 
-            if (workload==0) workload =100;
+            if (workload==0) workload =1000;
 
             bench.initialize(workload);
             workload =Long.parseLong(args[0]);
@@ -80,7 +76,7 @@ public class TestCPURecursionLoopUnrolling {
         log.writeTime("Time ", time, TimeUnit.timeUnit.Milli);
         Score =  ((workload*100/(time/1000)*prime)*prime/count)/1000;
         score = (( Score - 0) / (1000000 - 0)) * (10000 - 0) + 10;
-        System.out.println("For unrolling 0 Reached prime number " + prime + " after " + count + " calls and the score is: "+score);
+        System.out.println("For unrolling 2 Reached prime number " + prime + " after " + count + " calls and the score is: "+score);
 
 
         timer.start();

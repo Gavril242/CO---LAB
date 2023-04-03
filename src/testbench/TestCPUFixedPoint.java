@@ -21,7 +21,8 @@ public class TestCPUFixedPoint {
         bench.initialize(workload);
         timer.resume();
         try{
-        bench.run();}catch(Exception e){e.printStackTrace();}
+        bench.run();}catch(Exception e){//e.printStackTrace();
+             }
         long time = timer.pause();
         log.writeTime("Time ", time, TimeUnit.timeUnit.Nano);
         //log.write("Run " + i + ": ", time);
