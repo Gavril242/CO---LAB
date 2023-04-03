@@ -77,11 +77,11 @@ private long recursive(long start, long size, int counter) {
         return recursive(start + 1, size, counter + 1);
         }
         } catch (StackOverflowError e) {
-                e.printStackTrace();
+                //e.printStackTrace();
         //System.out.println("Reached nr " + start + "/" + size + " after " + counter + " calls.");
         return 0;
         } catch (NoClassDefFoundError e) {
-        System.out.println("Reached nr " + start + "/" + size + " after " + counter + " calls.");
+        //System.out.println("Reached nr " + start + "/" + size + " after " + counter + " calls.");
         return 0;
         }
         }
