@@ -10,11 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbad276a-e03d-4311-86b3-b25fff2a2d30" name="Changes" comment="CO v2.2 - score works perfectly -and accurate">
-      <change afterPath="$PROJECT_DIR$/src/bench/cpu/CPUThreadedRoots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testbench/TestThreadedRoots.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/cpu/CPUREC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/cpu/CPUREC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/TestCPURecursionLoopUnrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestCPURecursionLoopUnrolling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/cpu/CPUThreadedRoots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/cpu/CPUThreadedRoots.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -78,7 +75,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/donet/Desktop/CO--LAB/src",
+    "last_opened_file_path": "C:/Users/donet/IdeaProjects/CO/src/bench/cpu",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,6 +90,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\donet\IdeaProjects\CO\src\bench\cpu" />
       <recent name="C:\Users\donet\Desktop\CO--LAB\src\bench\cpu" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -102,7 +100,7 @@
       <recent name="testbench" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCPURecursionLoopUnrolling">
+  <component name="RunManager" selected="Application.TestthreadedRoots">
     <configuration name="TestCPUFixedPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testbench.TestCPUFixedPoint" />
       <module name="CO" />
@@ -129,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testbench" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testbench.Testbench" />
+    <configuration name="TestCPUThreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bench.cpu.TestCPUThreading" />
       <module name="CO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testbench.*" />
+          <option name="PATTERN" value="bench.cpu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,8 +153,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bench.cpu.test" />
+    <configuration name="TestthreadedRoots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testbench.TestthreadedRoots" />
       <module name="CO" />
       <extension name="coverage">
         <pattern>
@@ -170,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestthreadedRoots" />
+        <item itemvalue="Application.TestCPUThreading" />
         <item itemvalue="Application.TestCPURecursionLoopUnrolling" />
         <item itemvalue="Application.TestCPUFixedPoint" />
         <item itemvalue="Application.TestbenchPi" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Testbench" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +196,7 @@
       <workItem from="1680021312547" duration="8000" />
       <workItem from="1680456806653" duration="3000" />
       <workItem from="1680456834074" duration="6427000" />
+      <workItem from="1681761684874" duration="1309000" />
     </task>
     <task id="LOCAL-00001" summary="CO v1.1">
       <created>1678015664742</created>
@@ -248,14 +247,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680509380469</updated>
     </task>
-    <task id="LOCAL-00008" summary="CO v2.2 - score works perfectly -and accurate">
-      <created>1680518871161</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1680518871161</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,19 +258,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="labweek8" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -290,8 +270,7 @@
     <MESSAGE value="CO v1.4 - fully working demobenckmark added also loop needs work week 3 lab&#10;it needs to remove the print array on console its anoying." />
     <MESSAGE value="CO v1.5 - works need rework" />
     <MESSAGE value="CO v2.1 - score works perfectly" />
-    <MESSAGE value="CO v2.2 - score works perfectly -and accurate" />
-    <option name="LAST_COMMIT_MESSAGE" value="CO v2.2 - score works perfectly -and accurate" />
+    <option name="LAST_COMMIT_MESSAGE" value="CO v2.1 - score works perfectly" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

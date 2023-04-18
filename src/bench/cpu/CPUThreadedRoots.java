@@ -2,21 +2,17 @@ package bench.cpu;
 
 import bench.IBenchmark;
 
-public class CPUThreadedRoots extends Thread implements IBenchmark,Runnable {
+public class CPUThreadedRoots implements IBenchmark {
 
     private double result;
-    private int size, nrthreads;
+    private int size;
     private boolean running;
 
     @Override
     public void initialize(Object... params) {
-        // save size from params array
+        this.size = (int)params[0];
     }
 
-    public void warmUp() {
-        // call run method: call run() once
-        // detect number of cores: Runtime.....availableProcessors();
-    }
 
     @Override
     public void run() {
@@ -27,23 +23,32 @@ public class CPUThreadedRoots extends Thread implements IBenchmark,Runnable {
     @Override
     public void run(Object... options) {
         // options[0] -> number of threads
-        nrthreads = (int)options[0];
         // ...
+        int nThreads = (int)options[0];
 
-        Thread[] threads = new Thread[nrthreads];
+        Thread[] threads = new Thread[nThreads];
 
         // e.g. 1 to 10,000 on 4 threads = 2500 jobs per thread
-        final int jobPerThread = 0; /**/
+        final int jobPerThread = size/nThreads; /**/
 
         running = true; // flag used to stop all started threads
         // create a thread for each runnable (SquareRootTask) and start it
-        for (int i = 0; i < nrthreads; ++i) {
+        for (int i = 0; i < nThreads; ++i) {
+            SquareRootTask srt = new SquareRootTask(i * jobPerThread, (i + 1) * jobPerThread);
 
+            threads[i] = new Thread(srt);
+            threads[i].start();
+
+            result += srt.getResult();
         }
 
         // join threads
-        for (int i = 0; i < nrthreads; ++i) {
-            // ...
+        for (int i = 0; i < nThreads; ++i) {
+            try {
+                threads[i].join();
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 
@@ -52,9 +57,6 @@ public class CPUThreadedRoots extends Thread implements IBenchmark,Runnable {
         // only implement if needed
     }
 
-    /**
-     *
-     */
     @Override
     public void cancel() {
 
@@ -65,10 +67,14 @@ public class CPUThreadedRoots extends Thread implements IBenchmark,Runnable {
      */
     @Override
     public void warmup() {
+        // call run method: call run() once
+        // detect number of cores: Runtime.....availableProcessors();
+        int cores = Runtime.getRuntime().availableProcessors();
+        run(cores);
 
     }
 
-
+    //@Override
     public String getResult() {
         return String.valueOf(result);
     }
@@ -80,7 +86,8 @@ public class CPUThreadedRoots extends Thread implements IBenchmark,Runnable {
         private double result = 0.0;
 
         public SquareRootTask(int from, int to) {
-            // save params to class members
+            this.from = from;
+            this.to = to;
         }
 
         @Override
@@ -88,12 +95,27 @@ public class CPUThreadedRoots extends Thread implements IBenchmark,Runnable {
             // compute Newtonian square root on each number from i = 'from' to 'to', and also check 'running'
             // save (+=) each computed square root in the local 'result' variable
             // extra: send 'result' back to main thread and sum up with all results
+            for(int i = from; i <= to && running == true; i++) {
+                result += getNewtonian(i);
+            }
         }
 
-        private synchronized double getNewtonian(double x) {
+        private double getNewtonian(double x) {
             // ... implement the algorithm for Newton's square root(x) here
+            double current = x/2.0;
+            double previous;
 
-            return 1-1;
+            do {
+                previous = current;
+                current = (x/current + current)/2.0;
+
+            } while(Math.abs(current-previous) > precision);
+
+            return current;
+        }
+
+        public double getResult() {
+            return result;
         }
 
         // extra: compute sum, pass it back to wrapper class. Use synchronized
