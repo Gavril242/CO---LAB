@@ -18,9 +18,11 @@ public class TestCPUThreadedHashing {
 
         int maxLength = 10;
         int nThreads = 64;
-        //int hashCode = 524381996; //frodo 3 sec
-        //int hashCode = 1018655712; //break 2.2  sec
-        int hashCode = 132368363;//brasov 51 sec
+        //int hashCode = 524381996; //frodo 1.088 sec
+        //int hashCode = 52703576; //airbnb 5.527  sec
+        //int hashCode = 605107138;  //brasov 11.67 sec
+        //int hashCode = 1018655712;  //break 0.47 sec
+        int hashCode = 317266982;  //direct 18.77 sec
         bench.warmup();
         timer.start();
         bench.run(maxLength, nThreads, hashCode);

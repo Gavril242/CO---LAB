@@ -1,0 +1,63 @@
+Index: src/bench/DummyBenchmark.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package bench;\r\n\r\npublic class DummyBenchmark implements IBenchmark {\r\n    /*\r\n     *\r\n     *\r\n     *\r\n     * */\r\n\r\n    public void run() {\r\n\r\n    }\r\n\r\n\r\n    public void initialize(Object ...params) {\r\n\r\n        System.out.println(\"DummyBenchmark initialized\");\r\n\r\n    }\r\n\r\n    @Override\r\n    public void clean() {\r\n\r\n    }\r\n\r\n    @Override\r\n    public void cancel() {\r\n\r\n    }\r\n\r\n    /**\r\n     *\r\n     */\r\n    @Override\r\n    public void warmup() {\r\n\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/bench/DummyBenchmark.java b/src/bench/DummyBenchmark.java
+--- a/src/bench/DummyBenchmark.java	
++++ b/src/bench/DummyBenchmark.java	
+@@ -11,6 +11,11 @@
+ 
+     }
+ 
++    @Override
++    public void run(Object... param) {
++
++    }
++
+ 
+     public void initialize(Object ...params) {
+ 
+@@ -23,6 +28,11 @@
+ 
+     }
+ 
++    /**
++     *
++     */
++
++
+     @Override
+     public void cancel() {
+ 
+Index: src/bench/DemoBenchmark.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package bench;\r\n\r\n\r\nimport java.util.*;\r\n\r\npublic class DemoBenchmark implements IBenchmark{\r\n\r\n    // select sort algorithm\r\n\r\n    private int size = 0;\r\n    private Scanner scan = new Scanner(System.in);\r\n\r\n    private ArrayList<Integer> arr;\r\n    @Override\r\n    public void run() {\r\n\r\n        int  i, j, temp;\r\n\r\n        Random random = new Random();\r\n        for(int k=0; k<size; k++) {\r\n            arr.add(random.nextInt());\r\n        }\r\n\r\n\r\n        Iterator<Integer> it = arr.iterator();\r\n        //select sort algoritm using iterator\r\n        while(it.hasNext()) {\r\n            temp = it.next();\r\n            for(i=0; i<size-1; i++) {\r\n                if(arr.get(i) > arr.get(i+1)) {\r\n                    j = arr.get(i);\r\n                    arr.set(i, arr.get(i+1));\r\n                    arr.set(i+1, j);\r\n                }\r\n            }\r\n        }\r\n\r\n        System.out.print(\"Now the Array after Sorting is :\\n\");\r\n        for(i=0; i<size; i++)\r\n        {\r\n            System.out.print(arr.get(i)+ \"  \");\r\n        }\r\n    }\r\n\r\n    @Override\r\n    public void initialize(Object... params) {\r\n\r\n        System.out.print(\"Enter Array Size : \");\r\n        size = scan.nextInt();\r\n        arr = new ArrayList<Integer>();\r\n\r\n    }\r\n\r\n    @Override\r\n    public void clean() {\r\n\r\n    }\r\n\r\n    @Override\r\n    public void cancel() {\r\n        arr.clear();\r\n\r\n    }\r\n\r\n    @Override\r\n    public void warmup() {\r\n\r\n    }\r\n\r\n}\r\n\r\n class Testing{\r\n     public static void main(String[] args) {\r\n\r\n         DemoBenchmark demo=new  DemoBenchmark();\r\n         demo.initialize();\r\n         demo.run();\r\n\r\n     }\r\n}\r\n
+===================================================================
+diff --git a/src/bench/DemoBenchmark.java b/src/bench/DemoBenchmark.java
+--- a/src/bench/DemoBenchmark.java	
++++ b/src/bench/DemoBenchmark.java	
+@@ -42,6 +42,11 @@
+         }
+     }
+ 
++    @Override
++    public void run(Object... param) {
++
++    }
++
+     @Override
+     public void initialize(Object... params) {
+ 
+@@ -56,6 +61,10 @@
+ 
+     }
+ 
++    /**
++     *
++     */
++
+     @Override
+     public void cancel() {
+         arr.clear();

@@ -1,0 +1,147 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ArtifactsWorkspaceSettings\">\r\n    <artifacts-to-build>\r\n      <artifact name=\"CO:jar\" />\r\n    </artifacts-to-build>\r\n  </component>\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"cbad276a-e03d-4311-86b3-b25fff2a2d30\" name=\"Changes\" comment=\"CO v2.2 - score works perfectly -and accurate\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/bench/cpu/CPUThreadedRoots.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/bench/cpu/CPUREC.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/bench/cpu/CPUREC.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/testbench/TestCPURecursionLoopUnrolling.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/testbench/TestCPURecursionLoopUnrolling.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExportToHTMLSettings\">\r\n    <option name=\"OUTPUT_DIRECTORY\" value=\"$PROJECT_DIR$/../CO--LAB\\exportToHTML\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_TAGS\">\r\n      <GitPushTagMode>\r\n        <option name=\"argument\" value=\"--tags\" />\r\n        <option name=\"title\" value=\"All\" />\r\n      </GitPushTagMode>\r\n    </option>\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"labweek7\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"4cc2845c-7929-4186-817d-9c726b2fd1f4\" />\r\n        <option name=\"url\" value=\"https://github.com/Gavril242/CO---LAB.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2MJy1bSIjFb1AXJy1tBUxbdBzNw\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"OverrideImplement.generate.javadoc\": \"true\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"last_opened_file_path\": \"C:/Users/donet/Desktop/CO--LAB/src\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"project.structure.last.edited\": \"Artifacts\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"project.scopes\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\donet\\Desktop\\CO--LAB\\src\\bench\\cpu\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\donet\\Desktop\\CO--LAB\\src\\bench\\cpu\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"testbench\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.TestCPURecursionLoopUnrolling\">\r\n    <configuration name=\"TestCPUFixedPoint\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"testbench.TestCPUFixedPoint\" />\r\n      <module name=\"CO\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"testbench.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestCPURecursionLoopUnrolling\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"testbench.TestCPURecursionLoopUnrolling\" />\r\n      <module name=\"CO\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"testbench.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Testbench\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"testbench.Testbench\" />\r\n      <module name=\"CO\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"testbench.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestbenchPi\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"testbench.TestbenchPi\" />\r\n      <module name=\"CO\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"testbench.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"test\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"bench.cpu.test\" />\r\n      <module name=\"CO\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"testbench.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.TestCPURecursionLoopUnrolling\" />\r\n        <item itemvalue=\"Application.TestCPUFixedPoint\" />\r\n        <item itemvalue=\"Application.TestbenchPi\" />\r\n        <item itemvalue=\"Application.test\" />\r\n        <item itemvalue=\"Application.Testbench\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"cbad276a-e03d-4311-86b3-b25fff2a2d30\" name=\"Changes\" comment=\"\" />\r\n      <created>1677499766367</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1677499766367</updated>\r\n      <workItem from=\"1677499767684\" duration=\"4584000\" />\r\n      <workItem from=\"1677657402234\" duration=\"32000\" />\r\n      <workItem from=\"1678015540396\" duration=\"1841000\" />\r\n      <workItem from=\"1678044200427\" duration=\"746000\" />\r\n      <workItem from=\"1678222404917\" duration=\"19000\" />\r\n      <workItem from=\"1678631569875\" duration=\"1931000\" />\r\n      <workItem from=\"1678634344510\" duration=\"80000\" />\r\n      <workItem from=\"1678648444568\" duration=\"1862000\" />\r\n      <workItem from=\"1678706138029\" duration=\"8707000\" />\r\n      <workItem from=\"1680021312547\" duration=\"8000\" />\r\n      <workItem from=\"1680456806653\" duration=\"3000\" />\r\n      <workItem from=\"1680456834074\" duration=\"6427000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"CO v1.1\">\r\n      <created>1678015664742</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678015664742</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"CO v1.1\">\r\n      <created>1678017015179</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678017015179</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"CO v1.4 - fully working demobenckmark week 3 lab\">\r\n      <created>1678108520945</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678108520945</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"CO v1.4 - fully working demobenckmark added also loop needs work week 3 lab&#10;it needs to remove the print array on console its anoying.\">\r\n      <created>1678110339684</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678110339684</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"CO v1.4 - fully working demobenckmark added also loop needs work week 3 lab&#10;it needs to remove the print array on console its anoying.\">\r\n      <created>1678634384808</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678634384809</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"CO v1.5 - works need rework\">\r\n      <created>1679866317464</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679866317465</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"CO v2.1 - score works perfectly\">\r\n      <created>1680509380469</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680509380469</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"CO v2.2 - score works perfectly -and accurate\">\r\n      <created>1680518871161</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680518871161</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"labweek8\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"CO v1.1\" />\r\n    <MESSAGE value=\"CO v1.4 - fully working demobenckmark week 3 lab\" />\r\n    <MESSAGE value=\"CO v1.4 - fully working demobenckmark added also loop needs work week 3 lab&#10;it needs to remove the print array on console its anoying.\" />\r\n    <MESSAGE value=\"CO v1.5 - works need rework\" />\r\n    <MESSAGE value=\"CO v2.1 - score works perfectly\" />\r\n    <MESSAGE value=\"CO v2.2 - score works perfectly -and accurate\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"CO v2.2 - score works perfectly -and accurate\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -10,11 +10,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="cbad276a-e03d-4311-86b3-b25fff2a2d30" name="Changes" comment="CO v2.2 - score works perfectly -and accurate">
+-      <change afterPath="$PROJECT_DIR$/src/bench/cpu/CPUThreadedRoots.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/bench/cpu/CPUREC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/cpu/CPUREC.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/testbench/TestCPURecursionLoopUnrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestCPURecursionLoopUnrolling.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/bench/cpu/CPUThreadedRoots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/cpu/CPUThreadedRoots.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -41,7 +38,7 @@
+     </option>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="labweek7" />
++        <entry key="$PROJECT_DIR$" value="labweek8" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -102,7 +99,7 @@
+       <recent name="testbench" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.TestCPURecursionLoopUnrolling">
++  <component name="RunManager" selected="Application.testSquareRootTask">
+     <configuration name="TestCPUFixedPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="testbench.TestCPUFixedPoint" />
+       <module name="CO" />
+@@ -129,8 +126,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Testbench" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="testbench.Testbench" />
++    <configuration name="TestbenchPi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="testbench.TestbenchPi" />
+       <module name="CO" />
+       <extension name="coverage">
+         <pattern>
+@@ -142,8 +139,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TestbenchPi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="testbench.TestbenchPi" />
++    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="bench.cpu.test" />
+       <module name="CO" />
+       <extension name="coverage">
+         <pattern>
+@@ -155,12 +152,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="bench.cpu.test" />
++    <configuration name="testSquareRootTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="bench.cpu.testSquareRootTask" />
+       <module name="CO" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="testbench.*" />
++          <option name="PATTERN" value="bench.cpu.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -170,11 +167,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.testSquareRootTask" />
+         <item itemvalue="Application.TestCPURecursionLoopUnrolling" />
+         <item itemvalue="Application.TestCPUFixedPoint" />
+         <item itemvalue="Application.TestbenchPi" />
+         <item itemvalue="Application.test" />
+-        <item itemvalue="Application.Testbench" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -255,7 +252,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1680518871161</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="CO v2.2 - score works perfectly -and accurate">
++      <created>1680522199629</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1680522199629</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+Index: src/bench/cpu/CPUThreadedRoots.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package bench.cpu;\r\n\r\nimport bench.IBenchmark;\r\n\r\npublic class CPUThreadedRoots extends Thread implements IBenchmark,Runnable {\r\n\r\n    private double result;\r\n    private int size, nrthreads;\r\n    private boolean running;\r\n\r\n    @Override\r\n    public void initialize(Object... params) {\r\n        // save size from params array\r\n    }\r\n\r\n    public void warmUp() {\r\n        // call run method: call run() once\r\n        // detect number of cores: Runtime.....availableProcessors();\r\n    }\r\n\r\n    @Override\r\n    public void run() {\r\n        throw new UnsupportedOperationException(\r\n                \"Method not implemented. Use run(Objects...) instead\");\r\n    }\r\n\r\n    @Override\r\n    public void run(Object... options) {\r\n        // options[0] -> number of threads\r\n        nrthreads = (int)options[0];\r\n        // ...\r\n\r\n        Thread[] threads = new Thread[nrthreads];\r\n\r\n        // e.g. 1 to 10,000 on 4 threads = 2500 jobs per thread\r\n        final int jobPerThread = 0; /**/\r\n\r\n        running = true; // flag used to stop all started threads\r\n        // create a thread for each runnable (SquareRootTask) and start it\r\n        for (int i = 0; i < nrthreads; ++i) {\r\n\r\n        }\r\n\r\n        // join threads\r\n        for (int i = 0; i < nrthreads; ++i) {\r\n            // ...\r\n        }\r\n    }\r\n\r\n    @Override\r\n    public void clean() {\r\n        // only implement if needed\r\n    }\r\n\r\n    /**\r\n     *\r\n     */\r\n    @Override\r\n    public void cancel() {\r\n\r\n    }\r\n\r\n    /**\r\n     *\r\n     */\r\n    @Override\r\n    public void warmup() {\r\n\r\n    }\r\n\r\n\r\n    public String getResult() {\r\n        return String.valueOf(result);\r\n    }\r\n\r\n    class SquareRootTask implements Runnable {\r\n\r\n        private int from, to;\r\n        private final double precision = 1e-4; // fixed\r\n        private double result = 0.0;\r\n\r\n        public SquareRootTask(int from, int to) {\r\n            // save params to class members\r\n        }\r\n\r\n        @Override\r\n        public void run() {\r\n            // compute Newtonian square root on each number from i = 'from' to 'to', and also check 'running'\r\n            // save (+=) each computed square root in the local 'result' variable\r\n            // extra: send 'result' back to main thread and sum up with all results\r\n        }\r\n\r\n        private synchronized double getNewtonian(double x) {\r\n            // ... implement the algorithm for Newton's square root(x) here\r\n\r\n            return 1-1;\r\n        }\r\n\r\n        // extra: compute sum, pass it back to wrapper class. Use synchronized\r\n    }\r\n\r\n}
+===================================================================
+diff --git a/src/bench/cpu/CPUThreadedRoots.java b/src/bench/cpu/CPUThreadedRoots.java
+--- a/src/bench/cpu/CPUThreadedRoots.java	
++++ b/src/bench/cpu/CPUThreadedRoots.java	
+@@ -10,7 +10,7 @@
+ 
+     @Override
+     public void initialize(Object... params) {
+-        // save size from params array
++        size = (int) params[0];
+     }
+ 
+     public void warmUp() {
+@@ -39,6 +39,7 @@
+         // create a thread for each runnable (SquareRootTask) and start it
+         for (int i = 0; i < nrthreads; ++i) {
+ 
++
+         }
+ 
+         // join threads
+@@ -99,4 +100,12 @@
+         // extra: compute sum, pass it back to wrapper class. Use synchronized
+     }
+ 
++}
++
++class testSquareRootTask{
++    public static void main(String[] args) {
++        CPUThreadedRoots bench = new CPUThreadedRoots();
++        System.out.println("no errors at compilation");
++        bench.initialize(8);
++    }
+ }
+\ No newline at end of file
