@@ -17,7 +17,7 @@ public class TestCPUThreadedHashing {
         CPUThreadedHashing bench = new CPUThreadedHashing();
 
         int maxLength = 10;
-        int nThreads = 64;
+        int nThreads = 16;// useless for now
         //int hashCode = 524381996; //frodo 1.088 sec
         //int hashCode = 52703576; //airbnb 5.527  sec
         //int hashCode = 605107138;  //brasov 11.67 sec

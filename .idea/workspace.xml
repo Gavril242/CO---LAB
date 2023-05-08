@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbad276a-e03d-4311-86b3-b25fff2a2d30" name="Changes" comment="CO v1.4 - fully working demobenckmark added also loop needs work week 3 lab&#10;it needs to remove the print array on console its anoying.">
+    <list default="true" id="cbad276a-e03d-4311-86b3-b25fff2a2d30" name="Changes" comment="CO v2.3 - now CPUThreadedHashing works and all homework done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testbench/TestCPUThreadedHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestCPUThreadedHashing.java" afterDir="false" />
     </list>
@@ -255,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681792635581</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="CO v2.3 - now CPUThreadedHashing works and all homework done">
+      <created>1683536923459</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683536923459</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +298,8 @@
     <MESSAGE value="CO v1.5 - works need rework" />
     <MESSAGE value="CO v2.1 - score works perfectly" />
     <MESSAGE value="CO v2.2 - score works perfectly -and accurate" />
-    <option name="LAST_COMMIT_MESSAGE" value="CO v2.2 - score works perfectly -and accurate" />
+    <MESSAGE value="CO v2.3 - now CPUThreadedHashing works and all homework done" />
+    <option name="LAST_COMMIT_MESSAGE" value="CO v2.3 - now CPUThreadedHashing works and all homework done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
