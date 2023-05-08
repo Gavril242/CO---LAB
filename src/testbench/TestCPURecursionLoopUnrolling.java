@@ -5,7 +5,7 @@ import bench.IBenchmark;
 import bench.cpu.CPUREC;
 import logging.ConsoleLogger;
 import logging.ILog;
-import logging.TimeUnit;
+import logging.TimeUnits;
 import timing.ITimer;
 import timing.Timer;
 
@@ -55,7 +55,9 @@ public class TestCPURecursionLoopUnrolling {
         prime = ((CPUREC) bench).getPrime();
         count = ((CPUREC) bench).getCount();
         System.out.println("workload="+workload);
-        log.writeTime("Time ", time, TimeUnit.timeUnit.Milli);
+        TimeUnits timeUnits = TimeUnits.MILLISECONDS;
+        log.writeTime("Time ", time, timeUnits);
+
 
 
         Score =  ((workload*100/(time/1000)*prime)*prime/count)/1000;
@@ -73,7 +75,7 @@ public class TestCPURecursionLoopUnrolling {
         prime = ((CPUREC) bench).getPrime();
         count = ((CPUREC) bench).getCount();
 
-        log.writeTime("Time ", time, TimeUnit.timeUnit.Milli);
+        log.writeTime("Time ", time, timeUnits);
         Score =  ((workload*100/(time/1000)*prime)*prime/count)/1000;
         score = (( Score - 0) / (1000000 - 0)) * (10000 - 0) + 10;
         System.out.println("For unrolling 2 Reached prime number " + prime + " after " + count + " calls and the score is: "+score);
@@ -90,7 +92,7 @@ public class TestCPURecursionLoopUnrolling {
         prime = ((CPUREC) bench).getPrime();
         count = ((CPUREC) bench).getCount();
 
-        log.writeTime("Time ", time, TimeUnit.timeUnit.Milli);
+        log.writeTime("Time ", time, timeUnits);
 
         Score =  ((workload*100/(time/1000)*prime)*prime/count)/1000;
         score = (( Score - 0) / (1000000 - 0)) * (10000 - 0) + 10;
@@ -108,7 +110,7 @@ public class TestCPURecursionLoopUnrolling {
         prime = ((CPUREC) bench).getPrime();
         count = ((CPUREC) bench).getCount();
 
-        log.writeTime("Time ", time, TimeUnit.timeUnit.Milli);
+        log.writeTime("Time ", time, timeUnits);
 
         Score =  ((workload*100/(time/1000)*prime)*prime/count)/1000;
         score = (( Score - 0) / (1000000 - 0)) * (10000 - 0) + 10;

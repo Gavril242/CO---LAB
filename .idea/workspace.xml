@@ -10,9 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbad276a-e03d-4311-86b3-b25fff2a2d30" name="Changes" comment="CO v2.2 - score works perfectly -and accurate">
-      <change afterPath="$PROJECT_DIR$/src/testbench/TestThreadedRoots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bench/cpu/CPUThreadedHashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logging/TimeUnits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testbench/testHashingCPU.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bench/cpu/CPUThreadedRoots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/cpu/CPUThreadedRoots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logging/ConsoleLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/ConsoleLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logging/FileLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/FileLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logging/ILog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/ILog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logging/TimeUnit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testbench/TestBench" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestBench" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testbench/TestCPURecursionLoopUnrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestCPURecursionLoopUnrolling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testbench/TestThreadedRoots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestThreadedRoots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testbench/TestbenchPi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestbenchPi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timing/TimerState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timing/TimerState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,26 +79,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "OverrideImplement.generate.javadoc": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/donet/IdeaProjects/CO/src/bench/cpu",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.scopes",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/donet/IdeaProjects/CO/src/bench/cpu&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\donet\IdeaProjects\CO\src\bench\cpu" />
@@ -100,9 +111,9 @@
       <recent name="testbench" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestthreadedRoots">
-    <configuration name="TestCPUFixedPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testbench.TestCPUFixedPoint" />
+  <component name="RunManager" selected="Application.TestCPUThreadedHashing">
+    <configuration name="TestCPUThreadedHashing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testbench.TestCPUThreadedHashing" />
       <module name="CO" />
       <extension name="coverage">
         <pattern>
@@ -114,21 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCPURecursionLoopUnrolling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testbench.TestCPURecursionLoopUnrolling" />
-      <module name="CO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testbench.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCPUThreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bench.cpu.TestCPUThreading" />
+    <configuration name="TestThreadedRoots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testbench.TestThreadedRoots" />
       <module name="CO" />
       <extension name="coverage">
         <pattern>
@@ -145,7 +143,7 @@
       <module name="CO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testbench.*" />
+          <option name="PATTERN" value="bench.cpu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,6 +153,19 @@
     </configuration>
     <configuration name="TestthreadedRoots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testbench.TestthreadedRoots" />
+      <module name="CO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bench.cpu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testHashingCPU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testbench.testHashingCPU" />
       <module name="CO" />
       <extension name="coverage">
         <pattern>
@@ -168,10 +179,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCPUThreadedHashing" />
+        <item itemvalue="Application.testHashingCPU" />
+        <item itemvalue="Application.TestThreadedRoots" />
         <item itemvalue="Application.TestthreadedRoots" />
-        <item itemvalue="Application.TestCPUThreading" />
-        <item itemvalue="Application.TestCPURecursionLoopUnrolling" />
-        <item itemvalue="Application.TestCPUFixedPoint" />
         <item itemvalue="Application.TestbenchPi" />
       </list>
     </recent_temporary>
@@ -196,7 +207,9 @@
       <workItem from="1680021312547" duration="8000" />
       <workItem from="1680456806653" duration="3000" />
       <workItem from="1680456834074" duration="6427000" />
-      <workItem from="1681761684874" duration="1309000" />
+      <workItem from="1681761684874" duration="2891000" />
+      <workItem from="1682334188665" duration="4914000" />
+      <workItem from="1683528659543" duration="690000" />
     </task>
     <task id="LOCAL-00001" summary="CO v1.1">
       <created>1678015664742</created>
@@ -247,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680509380469</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CO v2.2 - score works perfectly -and accurate">
+      <created>1681792635581</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681792635581</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +290,8 @@
     <MESSAGE value="CO v1.4 - fully working demobenckmark added also loop needs work week 3 lab&#10;it needs to remove the print array on console its anoying." />
     <MESSAGE value="CO v1.5 - works need rework" />
     <MESSAGE value="CO v2.1 - score works perfectly" />
-    <option name="LAST_COMMIT_MESSAGE" value="CO v2.1 - score works perfectly" />
+    <MESSAGE value="CO v2.2 - score works perfectly -and accurate" />
+    <option name="LAST_COMMIT_MESSAGE" value="CO v2.2 - score works perfectly -and accurate" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

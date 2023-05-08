@@ -5,7 +5,7 @@ import bench.IBenchmark;
 import bench.cpu.CPUFixedPoint;
 import logging.ConsoleLogger;
 import logging.ILog;
-import logging.TimeUnit;
+import logging.TimeUnits;
 import timing.ITimer;
 import timing.Timer;
 
@@ -16,7 +16,7 @@ public class TestCPUFixedPoint {
         ITimer timer = new Timer();
         ILog log = new ConsoleLogger();
         IBenchmark bench = new CPUFixedPoint();
-
+        TimeUnits timeUnits = TimeUnits.NANOSECONDS;
         final long workload = 1000567600;
         bench.initialize(workload);
         timer.resume();
@@ -24,7 +24,7 @@ public class TestCPUFixedPoint {
         bench.run();}catch(Exception e){//e.printStackTrace();
              }
         long time = timer.pause();
-        log.writeTime("Time ", time, TimeUnit.timeUnit.Nano);
+        log.writeTime("Time ", time, timeUnits);
         //log.write("Run " + i + ": ", time);
         //log.writeTime(timer.stop(), timeUnit);
        // time = (long) (time * Math.pow(10, -9));

@@ -5,7 +5,7 @@ import bench.IBenchmark;
 import bench.cpu.DigitsOfPi;
 import logging.ConsoleLogger;
 import logging.ILog;
-import logging.TimeUnit;
+import logging.TimeUnits;
 import timing.ITimer;
 import timing.Timer;
 
@@ -17,7 +17,7 @@ public class TestbenchPi {
         IBenchmark bench = new DigitsOfPi();
 
         final int workload = 50000;
-        TimeUnit.timeUnit timeUnit = TimeUnit.timeUnit.Milli;
+        TimeUnits timeUnits = TimeUnits.MILLISECONDS;
 
         //bench.warmup();
         for (int i = 0; i < 20; i++){
@@ -25,12 +25,12 @@ public class TestbenchPi {
             timer.resume();
             bench.run();
             long time = timer.pause();
-            log.writeTime("Run " + i + ": ", time, timeUnit);
+            log.writeTime("Run " + i + ": ", time, timeUnits);
             //log.write("\n");
             //log.write("\nRun " + i + ": ", time);
         }
 
-        log.writeTime(timer.stop(), timeUnit);
+        log.writeTime(timer.stop(), timeUnits);
         //
         // ((DigitsOfPi) bench).printPi();
     }

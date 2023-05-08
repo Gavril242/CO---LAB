@@ -31,7 +31,7 @@ public interface ILog {
      */
     void close();
 
-    void writeTime(long value, TimeUnit.timeUnit unit);
+    void writeTime(long value, TimeUnits unit);
 
-    void writeTime(String string, long value, TimeUnit.timeUnit unit);
+    void writeTime(String string, long value, TimeUnits unit);
 }

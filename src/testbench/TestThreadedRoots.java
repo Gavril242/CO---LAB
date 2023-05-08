@@ -4,12 +4,13 @@ import bench.IBenchmark;
 import bench.cpu.CPUThreadedRoots;
 import logging.ConsoleLogger;
 import logging.ILog;
-import logging.TimeUnit;
+import logging.TimeUnits;
 import timing.Timer;
 
-class TestthreadedRoots {
+public class TestThreadedRoots {
     public static void main(String[] args) {
         Timer timer = new Timer();
+        TimeUnits timeUnits = TimeUnits.NANOSECONDS;
         ILog log = new ConsoleLogger();
         CPUThreadedRoots bench = new CPUThreadedRoots();
 
@@ -27,7 +28,7 @@ class TestthreadedRoots {
             long time = timer.stop();
             double score = (double) workload / (time * 10E-6 * i);
 
-            log.writeTime("Time ", time, TimeUnit.timeUnit.Sec);
+            log.writeTime("Time ", time, TimeUnits.NANOSECONDS);
             log.write("The score for run " + i + " is: " + score);
             log.write("\n");
         }

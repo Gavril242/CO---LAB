@@ -31,7 +31,7 @@ public class FileLogger implements ILog {
      * @param unit
      */
     @Override
-    public void writeTime(long value, TimeUnit.timeUnit unit) {
+    public void writeTime(long value, TimeUnits unit) {
 
     }
 
@@ -41,7 +41,7 @@ public class FileLogger implements ILog {
      * @param unit
      */
     @Override
-    public void writeTime(String string, long value, TimeUnit.timeUnit unit) {
+    public void writeTime(String string, long value,TimeUnits unit) {
 
     }
 }

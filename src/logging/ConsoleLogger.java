@@ -42,21 +42,21 @@ public class ConsoleLogger implements ILog{
      * @param unit
      */
     @Override
-    public void writeTime(long value, TimeUnit.timeUnit unit) {
+    public void writeTime(long value, TimeUnits unit) {
         switch(unit){
-            case Nano:
+            case NANOSECONDS:
                 System.out.println("Finished in " + value + " " + unit);
                 break;
 
-            case Micro:
+            case MICROSECONDS:
                 System.out.println("Finished in " + value * Math.pow(10, -3) + " " + unit);
                 break;
 
-            case Milli:
+            case MILLISECONDS:
                 System.out.println("Finished in " + value * Math.pow(10, -6) + " " + unit);
                 break;
 
-            case Sec:
+            case SECONDS:
                 System.out.println("Finished in " + value * Math.pow(10, -9) + " " + unit);
                 break;
         }
@@ -68,21 +68,21 @@ public class ConsoleLogger implements ILog{
      * @param unit
      */
     @Override
-    public void writeTime(String string, long value, TimeUnit.timeUnit unit) {
+    public void writeTime(String string, long value, TimeUnits unit) {
         switch(unit){
-            case Nano:
+            case NANOSECONDS:
                 System.out.println(string + value + " " + unit);
                 break;
 
-            case Micro:
+            case MICROSECONDS:
                 System.out.println(string + value * Math.pow(10, -3) + " " + unit);
                 break;
 
-            case Milli:
+            case MILLISECONDS:
                 System.out.println(string + value * Math.pow(10, -6) + " " + unit);
                 break;
 
-            case Sec:
+            case SECONDS:
                 System.out.println(string + value * Math.pow(10, -9) + " " + unit);
                 break;
         }

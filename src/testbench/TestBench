@@ -6,7 +6,7 @@ import logging.ILog;
 import timing.Timer;
 import logging.ConsoleLogger;
 import timing.ITimer;
-import logging.TimeUnit;
+import logging.TimeUnits;
 
 public class Testbench {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class Testbench {
         IBenchmark bench = new DemoBenchmark();
 
         final int workload = 10000;
-        TimeUnit.timeUnit timeUnit = TimeUnit.timeUnit.Milli;
+        TimeUnit.TimeUnitsTimeUnits= TimeUnit.timeUnit.Milli;
         bench.initialize(workload);
         for (int i = 0; i < 12; i++){
             timer.resume();

@@ -7,7 +7,7 @@ public class TimerState {
 
     void Milli(){
         multiplier = 1000;
-        timeunit = "ms";
+        timeunit= "ms";
 
     }
 
