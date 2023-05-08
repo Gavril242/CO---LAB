@@ -47,11 +47,12 @@ public class CPUThreadedHashing implements IBenchmark {
         ExecutorService executor = Executors.newFixedThreadPool(nThreads);
         HashManager hasher = new HashManager();
         String text = "aa";
+        int hashe;
 
         while (running) {
-            HashBreakerTask worker = new HashBreakerTask(hasher, text, hashCode);
+            hashe=hasher.hash(text);
             // assign new runnable to executor
-            executor.execute(worker);
+            if(hashe==hashCode) {System.out.println("Found hash "+hashCode+" at text ="+text); result = text; break;}
             // get next string (new task) OR NULL if final combination "zzz..z" reached
             text = hasher.getNextString(text);
 
@@ -70,9 +71,7 @@ public class CPUThreadedHashing implements IBenchmark {
         }
 
         // stop executor
-        executor.shutdown();
-        while (!executor.isTerminated()) {
-        }
+
 
     }
 
@@ -90,6 +89,10 @@ public class CPUThreadedHashing implements IBenchmark {
      */
     @Override
     public void warmup() {
+        HashManager hash = new HashManager();
+        int hashcodee= hash.hash("direct");
+        System.out.println("Hash of direct is: "+ hashcodee);
+        // assign new runnable to executor
 
     }
 

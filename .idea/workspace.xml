@@ -9,21 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbad276a-e03d-4311-86b3-b25fff2a2d30" name="Changes" comment="CO v2.2 - score works perfectly -and accurate">
-      <change afterPath="$PROJECT_DIR$/src/bench/cpu/CPUThreadedHashing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logging/TimeUnits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testbench/testHashingCPU.java" afterDir="false" />
+    <list default="true" id="cbad276a-e03d-4311-86b3-b25fff2a2d30" name="Changes" comment="CO v1.4 - fully working demobenckmark added also loop needs work week 3 lab&#10;it needs to remove the print array on console its anoying.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logging/ConsoleLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/ConsoleLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logging/FileLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/FileLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logging/ILog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logging/ILog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logging/TimeUnit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/TestBench" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestBench" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestCPUFixedPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/TestCPURecursionLoopUnrolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestCPURecursionLoopUnrolling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/TestThreadedRoots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestThreadedRoots.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testbench/TestbenchPi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestbenchPi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timing/TimerState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/timing/TimerState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bench/cpu/CPUThreadedHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bench/cpu/CPUThreadedHashing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testbench/TestCPUThreadedHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testbench/TestCPUThreadedHashing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,8 +170,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestCPUThreadedHashing" />
-        <item itemvalue="Application.testHashingCPU" />
         <item itemvalue="Application.TestThreadedRoots" />
+        <item itemvalue="Application.testHashingCPU" />
         <item itemvalue="Application.TestthreadedRoots" />
         <item itemvalue="Application.TestbenchPi" />
       </list>
@@ -278,7 +268,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/labweek10" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
